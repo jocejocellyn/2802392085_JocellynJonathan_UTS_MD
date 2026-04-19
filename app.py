@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-clf_model = joblib.load('artifacts/classification_model.pkl')
-reg_model = joblib.load('artifacts/regression_model.pkl')
+clf_model = joblib.load('classification_model.pkl')
+reg_model = joblib.load('regression_model.pkl')
 
 def main():
     st.title('Student Career Prediction System')
